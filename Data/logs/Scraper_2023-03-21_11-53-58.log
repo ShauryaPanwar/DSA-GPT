@@ -1,0 +1,251 @@
+INFO:root:Blog links fetched successfully for url: https://medium.com/search?q=python
+ERROR:root:Error in fetching request for url: medium/towards-data-science/what-can-you-do-with-python-the-3-main-applications-518db9a68a78?source=search_post---------2---------------------------- and error: Message: invalid argument
+  (Session info: chrome=111.0.5563.64)
+Stacktrace:
+#0 0x555f8021d243 <unknown>
+#1 0x555f7ffe1631 <unknown>
+#2 0x555f7ffcc342 <unknown>
+#3 0x555f7ffca6f3 <unknown>
+#4 0x555f7ffcab3d <unknown>
+#5 0x555f7ffe3596 <unknown>
+#6 0x555f80057fc5 <unknown>
+#7 0x555f8003f082 <unknown>
+#8 0x555f80057932 <unknown>
+#9 0x555f8003ee53 <unknown>
+#10 0x555f800119ea <unknown>
+#11 0x555f80012b2e <unknown>
+#12 0x555f80271d5e <unknown>
+#13 0x555f80275a80 <unknown>
+#14 0x555f802578b0 <unknown>
+#15 0x555f80276b63 <unknown>
+#16 0x555f80248f75 <unknown>
+#17 0x555f80299998 <unknown>
+#18 0x555f80299b27 <unknown>
+#19 0x555f802b4c23 <unknown>
+#20 0x7fc1b2494b43 <unknown>
+
+ERROR:root:Error in fetching request for url: medium/towards-data-science/why-python-is-not-the-programming-language-of-the-future-30ddc5339b66?source=search_post---------4---------------------------- and error: Message: invalid argument
+  (Session info: chrome=111.0.5563.64)
+Stacktrace:
+#0 0x56007ff95243 <unknown>
+#1 0x56007fd59631 <unknown>
+#2 0x56007fd44342 <unknown>
+#3 0x56007fd426f3 <unknown>
+#4 0x56007fd42b3d <unknown>
+#5 0x56007fd5b596 <unknown>
+#6 0x56007fdcffc5 <unknown>
+#7 0x56007fdb7082 <unknown>
+#8 0x56007fdcf932 <unknown>
+#9 0x56007fdb6e53 <unknown>
+#10 0x56007fd899ea <unknown>
+#11 0x56007fd8ab2e <unknown>
+#12 0x56007ffe9d5e <unknown>
+#13 0x56007ffeda80 <unknown>
+#14 0x56007ffcf8b0 <unknown>
+#15 0x56007ffeeb63 <unknown>
+#16 0x56007ffc0f75 <unknown>
+#17 0x560080011998 <unknown>
+#18 0x560080011b27 <unknown>
+#19 0x56008002cc23 <unknown>
+#20 0x7fede0c94b43 <unknown>
+
+ERROR:root:Error in fetching request for url: medium/free-code-camp/an-a-z-of-useful-python-tricks-b467524ee747?source=search_post---------3---------------------------- and error: Message: invalid argument
+  (Session info: chrome=111.0.5563.64)
+Stacktrace:
+#0 0x55a1cbfad243 <unknown>
+#1 0x55a1cbd71631 <unknown>
+#2 0x55a1cbd5c342 <unknown>
+#3 0x55a1cbd5a6f3 <unknown>
+#4 0x55a1cbd5ab3d <unknown>
+#5 0x55a1cbd73596 <unknown>
+#6 0x55a1cbde7fc5 <unknown>
+#7 0x55a1cbdcf082 <unknown>
+#8 0x55a1cbde7932 <unknown>
+#9 0x55a1cbdcee53 <unknown>
+#10 0x55a1cbda19ea <unknown>
+#11 0x55a1cbda2b2e <unknown>
+#12 0x55a1cc001d5e <unknown>
+#13 0x55a1cc005a80 <unknown>
+#14 0x55a1cbfe78b0 <unknown>
+#15 0x55a1cc006b63 <unknown>
+#16 0x55a1cbfd8f75 <unknown>
+#17 0x55a1cc029998 <unknown>
+#18 0x55a1cc029b27 <unknown>
+#19 0x55a1cc044c23 <unknown>
+#20 0x7f1e51e94b43 <unknown>
+
+ERROR:root:Error in fetching request for url: medium/free-code-camp/learning-python-from-zero-to-hero-120ea540b567?source=search_post---------0---------------------------- and error: Message: invalid argument
+  (Session info: chrome=111.0.5563.64)
+Stacktrace:
+#0 0x55b8cb855243 <unknown>
+#1 0x55b8cb619631 <unknown>
+#2 0x55b8cb604342 <unknown>
+#3 0x55b8cb6026f3 <unknown>
+#4 0x55b8cb602b3d <unknown>
+#5 0x55b8cb61b596 <unknown>
+#6 0x55b8cb68ffc5 <unknown>
+#7 0x55b8cb677082 <unknown>
+#8 0x55b8cb68f932 <unknown>
+#9 0x55b8cb676e53 <unknown>
+#10 0x55b8cb6499ea <unknown>
+#11 0x55b8cb64ab2e <unknown>
+#12 0x55b8cb8a9d5e <unknown>
+#13 0x55b8cb8ada80 <unknown>
+#14 0x55b8cb88f8b0 <unknown>
+#15 0x55b8cb8aeb63 <unknown>
+#16 0x55b8cb880f75 <unknown>
+#17 0x55b8cb8d1998 <unknown>
+#18 0x55b8cb8d1b27 <unknown>
+#19 0x55b8cb8ecc23 <unknown>
+#20 0x7ff93ba94b43 <unknown>
+
+ERROR:root:Error in fetching request for url: medium/towards-data-science/how-to-build-your-own-neural-network-from-scratch-in-python-68998a08e4f6?source=search_post---------1---------------------------- and error: Message: invalid argument
+  (Session info: chrome=111.0.5563.64)
+Stacktrace:
+#0 0x561740945243 <unknown>
+#1 0x561740709631 <unknown>
+#2 0x5617406f4342 <unknown>
+#3 0x5617406f26f3 <unknown>
+#4 0x5617406f2b3d <unknown>
+#5 0x56174070b596 <unknown>
+#6 0x56174077ffc5 <unknown>
+#7 0x561740767082 <unknown>
+#8 0x56174077f932 <unknown>
+#9 0x561740766e53 <unknown>
+#10 0x5617407399ea <unknown>
+#11 0x56174073ab2e <unknown>
+#12 0x561740999d5e <unknown>
+#13 0x56174099da80 <unknown>
+#14 0x56174097f8b0 <unknown>
+#15 0x56174099eb63 <unknown>
+#16 0x561740970f75 <unknown>
+#17 0x5617409c1998 <unknown>
+#18 0x5617409c1b27 <unknown>
+#19 0x5617409dcc23 <unknown>
+#20 0x7f8be4494b43 <unknown>
+
+ERROR:root:Error in fetching request for url: medium/towards-data-science/the-next-level-of-data-visualization-in-python-dd6e99039d5e?source=search_post---------5---------------------------- and error: Message: invalid argument
+  (Session info: chrome=111.0.5563.64)
+Stacktrace:
+#0 0x55d55311a243 <unknown>
+#1 0x55d552ede631 <unknown>
+#2 0x55d552ec9342 <unknown>
+#3 0x55d552ec76f3 <unknown>
+#4 0x55d552ec7b3d <unknown>
+#5 0x55d552ee0596 <unknown>
+#6 0x55d552f54fc5 <unknown>
+#7 0x55d552f3c082 <unknown>
+#8 0x55d552f54932 <unknown>
+#9 0x55d552f3be53 <unknown>
+#10 0x55d552f0e9ea <unknown>
+#11 0x55d552f0fb2e <unknown>
+#12 0x55d55316ed5e <unknown>
+#13 0x55d553172a80 <unknown>
+#14 0x55d5531548b0 <unknown>
+#15 0x55d553173b63 <unknown>
+#16 0x55d553145f75 <unknown>
+#17 0x55d553196998 <unknown>
+#18 0x55d553196b27 <unknown>
+#19 0x55d5531b1c23 <unknown>
+#20 0x7f37b9494b43 <unknown>
+
+ERROR:root:Error in fetching request for url: medium/towards-data-science/bye-bye-python-hello-julia-9230bff0df62?source=search_post---------6---------------------------- and error: Message: invalid argument
+  (Session info: chrome=111.0.5563.64)
+Stacktrace:
+#0 0x55cf80920243 <unknown>
+#1 0x55cf806e4631 <unknown>
+#2 0x55cf806cf342 <unknown>
+#3 0x55cf806cd6f3 <unknown>
+#4 0x55cf806cdb3d <unknown>
+#5 0x55cf806e6596 <unknown>
+#6 0x55cf8075afc5 <unknown>
+#7 0x55cf80742082 <unknown>
+#8 0x55cf8075a932 <unknown>
+#9 0x55cf80741e53 <unknown>
+#10 0x55cf807149ea <unknown>
+#11 0x55cf80715b2e <unknown>
+#12 0x55cf80974d5e <unknown>
+#13 0x55cf80978a80 <unknown>
+#14 0x55cf8095a8b0 <unknown>
+#15 0x55cf80979b63 <unknown>
+#16 0x55cf8094bf75 <unknown>
+#17 0x55cf8099c998 <unknown>
+#18 0x55cf8099cb27 <unknown>
+#19 0x55cf809b7c23 <unknown>
+#20 0x7fcf78894b43 <unknown>
+
+ERROR:root:Error in fetching request for url: medium/towards-data-science/a-complete-machine-learning-walk-through-in-python-part-one-c62152f39420?source=search_post---------7---------------------------- and error: Message: invalid argument
+  (Session info: chrome=111.0.5563.64)
+Stacktrace:
+#0 0x560a21cc1243 <unknown>
+#1 0x560a21a85631 <unknown>
+#2 0x560a21a70342 <unknown>
+#3 0x560a21a6e6f3 <unknown>
+#4 0x560a21a6eb3d <unknown>
+#5 0x560a21a87596 <unknown>
+#6 0x560a21afbfc5 <unknown>
+#7 0x560a21ae3082 <unknown>
+#8 0x560a21afb932 <unknown>
+#9 0x560a21ae2e53 <unknown>
+#10 0x560a21ab59ea <unknown>
+#11 0x560a21ab6b2e <unknown>
+#12 0x560a21d15d5e <unknown>
+#13 0x560a21d19a80 <unknown>
+#14 0x560a21cfb8b0 <unknown>
+#15 0x560a21d1ab63 <unknown>
+#16 0x560a21cecf75 <unknown>
+#17 0x560a21d3d998 <unknown>
+#18 0x560a21d3db27 <unknown>
+#19 0x560a21d58c23 <unknown>
+#20 0x7fe7e3694b43 <unknown>
+
+ERROR:root:Error in fetching request for url: medium/towards-data-science/coding-ml-tools-like-you-code-ml-models-ddba3357eace?source=search_post---------9---------------------------- and error: Message: invalid argument
+  (Session info: chrome=111.0.5563.64)
+Stacktrace:
+#0 0x559015949243 <unknown>
+#1 0x55901570d631 <unknown>
+#2 0x5590156f8342 <unknown>
+#3 0x5590156f66f3 <unknown>
+#4 0x5590156f6b3d <unknown>
+#5 0x55901570f596 <unknown>
+#6 0x559015783fc5 <unknown>
+#7 0x55901576b082 <unknown>
+#8 0x559015783932 <unknown>
+#9 0x55901576ae53 <unknown>
+#10 0x55901573d9ea <unknown>
+#11 0x55901573eb2e <unknown>
+#12 0x55901599dd5e <unknown>
+#13 0x5590159a1a80 <unknown>
+#14 0x5590159838b0 <unknown>
+#15 0x5590159a2b63 <unknown>
+#16 0x559015974f75 <unknown>
+#17 0x5590159c5998 <unknown>
+#18 0x5590159c5b27 <unknown>
+#19 0x5590159e0c23 <unknown>
+#20 0x7fd830894b43 <unknown>
+
+ERROR:root:Error in fetching request for url: medium/analytics-vidhya/building-a-simple-chatbot-in-python-using-nltk-7c8c8215ac6e?source=search_post---------8---------------------------- and error: Message: invalid argument
+  (Session info: chrome=111.0.5563.64)
+Stacktrace:
+#0 0x55e59ebdc243 <unknown>
+#1 0x55e59e9a0631 <unknown>
+#2 0x55e59e98b342 <unknown>
+#3 0x55e59e9896f3 <unknown>
+#4 0x55e59e989b3d <unknown>
+#5 0x55e59e9a2596 <unknown>
+#6 0x55e59ea16fc5 <unknown>
+#7 0x55e59e9fe082 <unknown>
+#8 0x55e59ea16932 <unknown>
+#9 0x55e59e9fde53 <unknown>
+#10 0x55e59e9d09ea <unknown>
+#11 0x55e59e9d1b2e <unknown>
+#12 0x55e59ec30d5e <unknown>
+#13 0x55e59ec34a80 <unknown>
+#14 0x55e59ec168b0 <unknown>
+#15 0x55e59ec35b63 <unknown>
+#16 0x55e59ec07f75 <unknown>
+#17 0x55e59ec58998 <unknown>
+#18 0x55e59ec58b27 <unknown>
+#19 0x55e59ec73c23 <unknown>
+#20 0x7f0feaa94b43 <unknown>
+

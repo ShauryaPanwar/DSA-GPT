@@ -1,0 +1,6 @@
+selenium
+httpx
+requests
+ndjson
+pandas
+lxml
