@@ -14,6 +14,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from concurrent.futures import ThreadPoolExecutor
 from productList import productList
+from dbconnector import AmazonDatabaseConnector
 
 
 
@@ -25,7 +26,7 @@ class Scraper:
     def __init__(self):
         self.stamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
         self.storagePath = os.path.join(
-            os.path.dirname(os.path.abspath(__file__)), "../Data/"
+            os.path.dirname(os.path.abspath(__file__)), "../"
         )
 
         logging.basicConfig(
@@ -87,20 +88,23 @@ class Scraper:
             logging.error("Error in fetching request for url: {} and error: {}".format(blogLink, e))
             return None
         
-        
-        blogTitle = SeleniumScraper.get_xpath_data(doc, self.blogTitleXpath)[0]
-        blogDetails["blogTitle"] = blogTitle
+        try:
+            blogTitle = SeleniumScraper.get_xpath_data(doc, self.blogTitleXpath)[0]
+            blogDetails["Blog_title"] = blogTitle
+            blogSubheading = blogTitle[1:-1]
 
-        blogSubheading = blogTitle[1:-1]
-        blogDetails["blogSubheading"] = blogSubheading
-    
+            blogDetails["Blog_subheading"] = blogSubheading
+            
+        except Exception as e:
+            logging.error("Error in fetching blog title for url: {} and error: {}".format(blogLink, e))
+            blogDetails["Blog_title"] = ''
+            blogDetails["Blog_subheading"] = ''
+
         blogContent = SeleniumScraper.get_xpath_data(doc, self.blogContentXpath)
         blogContent = " ".join(blogContent)
-        blogDetails["blogContent"] = blogContent            
+        blogDetails["Blog_content"] = blogContent            
 
 
-        df = pd.DataFrame.from_dict(blogDetails, orient="index").T
-        self.dfList.append(df)
 
         return blogDetails
 
@@ -113,12 +117,23 @@ class Scraper:
         print(blogLinks)
         with ThreadPoolExecutor(max_workers=5) as executor:
             results = executor.map(self.getBlogContent, blogLinks)
+            for result in results:
+                self.db.insertProduct(result)
 
-        return results
+
 
 if __name__ == "__main__":
-    scraper = Scraper()
+    number_of_threads=5
+    scraper = Scraper()   
+
+    # make db amazon.db if it doesn't exist
+    if not os.path.exists(scraper.storagePath + "medium.db"):
+        print(f'Creating amazon.db at {scraper.storagePath+"medium.db"}')
+        db = AmazonDatabaseConnector(scraper.stamp)
+        db.schemaMaker()
+    
+    scraper.db = AmazonDatabaseConnector(scraper.stamp)
+
     for keyword in productList:
         scraper.main(keyword)
-        SeleniumScraper.data_storage(scraper.dfList, "blogTitle", "Medium-{}".format(keyword))
-        scraper.website = "https://medium.com/search?q="
+        scraper.website = "https://medium.com/search?q="    
