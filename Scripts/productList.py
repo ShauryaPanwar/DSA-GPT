@@ -13,4 +13,5 @@ productList = [
     'Data+Warehousing',
     'Data+Modeling',
     'Data+Governance',
+    'Web+Scraping'
 ]
